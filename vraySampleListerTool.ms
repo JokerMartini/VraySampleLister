@@ -731,7 +731,7 @@ struct VraySubdivTool
 		if instUI==undefined then
 		(
 			instUI=UI()
-			createDialog instUI width:400 height:500 style:#(#style_SysMenu, #style_titlebar, #style_minimizebox, #style_resizing)
+			createDialog instUI width:400 height:500 style:#(#style_SysMenu, #style_titlebar, #style_minimizebox, #style_resizing, #style_maximizebox))
 		)else
 		(
 			destroyDialog instUI
