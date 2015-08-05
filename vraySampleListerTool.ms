@@ -1,5 +1,5 @@
 /********************************************************
-:Created By:			John Martini
+:Created By:				John Martini
 :Company:				JokerMartini
 :Site:					http://JokerMartini.com
 :Email:					jokermartini@gmail.com
@@ -731,8 +731,9 @@ struct VraySubdivTool
 		if instUI==undefined then
 		(
 			instUI=UI()
-			createDialog instUI width:400 height:500 style:#(#style_SysMenu, #style_titlebar, #style_minimizebox, #style_resizing, #style_maximizebox))
-		)else
+			createDialog instUI width:400 height:500 style:#(#style_SysMenu, #style_titlebar, #style_minimizebox, #style_resizing, #style_maximizebox)
+		)
+		else
 		(
 			destroyDialog instUI
 			instUI=undefined
